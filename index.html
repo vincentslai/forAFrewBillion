@@ -1,0 +1,25 @@
+<!DOCKTYPE html>
+<html>
+<head>
+	<title>Coding Dojo | For a few Billion</title>
+</head>
+<body>
+	<h1>For a few Billion</h1>
+	<p>There is an old tale about a king who offered a servant $10,000 as a reward. The servant instead asked that for 30 days he be given an amount that would double, starting with a penny. (1 penny for the first day, 2 for the second, 4 for the third, then 8, 16, 32 pennies, and so on).</p>
+
+	<p>Use for loops to answer the following:</p>
+
+	<p>How much was the reward after 30 days?
+	remember, a penny isn't 1, but 0.01 </p>
+
+	<script>
+		var dayCount = 0;
+		for(var value = 0.01; value <=10000 ; value = value*2)
+		{
+			console.log("Now you have $" + value + " on day " + dayCount);
+			dayCount++;
+		}
+		console.log("It takes " + dayCount + " days to close to $10,000");
+	</script>
+</body>
+</html>
